@@ -15,6 +15,7 @@
 
 body {
   line-height: 1.4;
+  /* max-width: 1100px; */
 }
 
 .container {
@@ -27,7 +28,7 @@ body {
 #showcase {
   background: var(--primary-color);
   color: #fff;
-  height: 100vh;
+  height: 70vh;
   position: relative;
 }
 
@@ -45,9 +46,9 @@ body {
 #showcase .showcase-container {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   justify-content: center;
-  text-align: left;
+  text-align: center;
   height: 100%;
   padding: 0;
 }
@@ -77,4 +78,51 @@ body {
 
 .btn:hover {
   opacity: 0.7;
+}
+
+/* Skills */
+#about {
+  background: var(--secondary-color);
+  color: #fff;
+  height: 30vh;
+  position: relative;
+}
+
+#about skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.flex-items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+/* Icons */
+.icons {
+  padding: 50px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  background-color: #28a745;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* > div applies to direct div applicable to flex-items */
+.flex-items > div {
+  width: 300px;
+  padding: 0px;
 }
