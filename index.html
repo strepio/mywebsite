@@ -15,21 +15,38 @@
   <!-- Include fontawesome -->
   <script src="https://kit.fontawesome.com/cad1cb3c7f.js" crossorigin="anonymous"></script>
   <!-- Import style sheets -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/menu.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
   <title>Welcome to My Website</title>
 </head>
 
 <body>
-
-  <header class="hero">
-    <div id="navbar" class="navbar top">
-      <div class="logo">
-        <h1 class="lastname"><span class="firstname">Piotr</span> Strek</h1>
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger">
+    <div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+  </div>
+  <header id="showcase">
+    <div class="container showcase-container">
+      <h1>Hi, I'm Piotr</h1>
+      <p>Pronounced (pee-O-tur). <br>
+        I am a Web Developer and Engineer.</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
   </header>
-
 </body>
 
 </html>
