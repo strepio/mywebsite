@@ -1,0 +1,41 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  /* Variables */
+  --primary-color: red;
+  --secondary-color: rgb(0, 128, 109);
+  --tertiary-color: #333;
+  --animate-speed: 1s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .logo {
+  display: flex;
+  flex-direction: row;
+  /* background: var(--primary-color); */
+}
+
+header .bottomlayer1 {
+  animation: animate 1s forwards ease-in-out;
+}
+
+header .midlayer {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+@keyframes animate {
+  from {
+    top: 0;
+    left: 0;
+  }
+
+  to {
+    top: 20px;
+    left: 20px;
+  }
+}
